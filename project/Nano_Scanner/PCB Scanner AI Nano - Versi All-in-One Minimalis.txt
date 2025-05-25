@@ -1,0 +1,107 @@
+Roadmap Proyek:  PCB Scanner AI Nano - Versi All-in-One Minimalis
+
+
+---
+
+Fase 1: Perencanaan Awal & Riset Komponen
+
+[x] Tentukan target motor (Honda, Yamaha, dan umum FI 2010+)
+
+[x] Riset protokol ECU (K-Line, CAN, ISO9141)
+
+[x] Pilih MCU utama: ESP32 (fitur WiFi + Bluetooth built-in)
+
+[x] Tentukan interface komunikasi: UART, SPI, CAN
+
+[x] Riset jenis LCD dan resolusi minimal: TFT 2.4" (ILI9341)
+
+[x] Buat skema blok sistem
+
+
+Fase 2: Desain Skema dan Layout PCB
+
+[ ] Buat skematik lengkap di KiCAD/EasyEDA
+
+[ ] Integrasi MCP2515 + MCP2551 untuk CAN Bus
+
+[ ] Tambahkan rangkaian K-Line via transistor (NPN)
+
+[ ] Integrasi buck converter 12V ke 5V + 3.3V
+
+[ ] Tambah header input tombol/menu/reset
+
+[ ] Desain layout PCB single layer/double layer
+
+[ ] Export file Gerber untuk produksi
+
+
+Fase 3: Pemrograman & Firmware Awal
+
+[ ] Siapkan script awal dalam Arduino IDE (ESP32 board)
+
+[ ] Buat script deteksi protokol otomatis
+
+[ ] Buat parser data sensor standar (RPM, IAT, TPS, MAP)
+
+[ ] Buat interface tampilan LCD (menu, hasil scan)
+
+[ ] Tambahkan komunikasi WiFi untuk update OTA
+
+
+Fase 4: AI Nano Embedded
+
+[ ] Integrasi TinyML (TensorFlow Lite for Microcontrollers)
+
+[ ] Simpan model ringan untuk diagnosa langsung dari data OBD
+
+[ ] Buat fitur pembacaan + penjelasan langsung dari sensor data
+
+[ ] Tambahkan mode remap sederhana (atur AFR/ignition map basic)
+
+
+Fase 5: Uji Coba & Debugging
+
+[ ] Uji ke motor Beat, NMAX, Vario, Aerox
+
+[ ] Cek kestabilan data K-Line/CAN
+
+[ ] Uji kompatibilitas soket OBD 3-pin & 4-pin
+
+[ ] Simpan error code untuk pengecekan cepat
+
+[ ] Debug kestabilan firmware
+
+
+Fase 6: Finalisasi & Produksi Awal
+
+[ ] Cetak PCB batch 5–10 unit
+
+[ ] Produksi casing akrilik / 3D print
+
+[ ] Buat logo dan branding
+
+[ ] Siapkan dokumentasi pemakaian
+
+[ ] Rilis sebagai versi Alpha/Developer Kit
+
+
+Catatan Tambahan:
+
+Estimasi modal: Rp 120.000–180.000/unit
+
+Target jual awal: Rp 400.000–700.000
+
+Fokus utama: edukasi, bengkel kecil, riset AI kendaraan
+
+
+
+---
+
+Nama File: Hardware_PCB_Scanner_AI.txt
+
+
+
+Roadmap sudah dibuat dan disimpan dalam file Hardware_PCB_Scanner_AI.txt. Siap dijadikan dasar pengembangan dan nanti bisa digabung ke modul utama.
+
+Kalau mas Arip butuh file ZIP-nya atau mau pecah per fase, tinggal bilang aja. Kita lanjut kapan pun mas Arip siap, hehehe.
+

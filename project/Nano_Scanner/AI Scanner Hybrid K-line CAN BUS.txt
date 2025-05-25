@@ -1,0 +1,155 @@
+Roadmap AI Scanner Hybrid: K-Line & CAN Bus ECU Motor
+
+
+---
+
+1. Tujuan Proyek
+
+Membangun AI Scanner Universal yang mampu:
+
+Deteksi otomatis protokol ECU (K-Line / CAN Bus)
+
+Membaca & menjelaskan data sensor
+
+Melakukan reset DTC & history
+
+Menyediakan fitur AI remap (PRO version)
+
+
+
+---
+
+2. Tahap 1: Deteksi & Koneksi Fisik
+
+Target: Arduino/ESP32 membaca soket OBD (K-Line & CAN)
+
+[ ] Gunakan konektor DLC 3-pin & 4-pin
+
+[ ] Gunakan interface:
+
+K-Line: via serial (UART) & transistor
+
+CAN Bus: MCP2515 + TJA1050
+
+
+[ ] Deteksi otomatis:
+
+Jika hanya 3 kabel: asumsikan K-Line
+
+Jika 4 kabel: uji komunikasi CAN
+
+
+[ ] Kirim hasil ke modul Python (via serial/USB)
+
+
+
+---
+
+3. Tahap 2: Software Data Parser (Python)
+
+Target: Python memproses data dari ECU
+
+[ ] Gunakan pySerial untuk baca data dari Arduino
+
+[ ] Library parsing KWP2000 / ISO 9141 untuk K-Line
+
+[ ] Library ISO 15765 untuk CAN
+
+[ ] Identifikasi ECU ID, sensor, DTC
+
+[ ] Tampilkan di LCD TFT/terminal
+
+
+
+---
+
+4. Tahap 3: Modul AI Penjelas Data
+
+Target: AI menjelaskan data hasil diagnosa
+
+[ ] Buat struktur data sensor (contoh: TPS, MAP, IAT, O2)
+
+[ ] Buat AI lokal ringan (rule-based)
+
+[ ] Berikan saran perbaikan otomatis
+
+[ ] Simpan log data (.txt / database)
+
+
+
+---
+
+5. Tahap 4: Versi PRO - Flash & Remap
+
+Target: Untuk ECU yang mendukung flashing
+
+[ ] Tambahkan fitur backup firmware ECU
+
+[ ] Analisa map injektor, timing, TPS
+
+[ ] Ubah nilai (dengan izin user)
+
+[ ] Fitur restore firmware full
+
+
+
+---
+
+6. Tahap 5: Integrasi Cloud (opsional)
+
+Target: Remote diagnosa via HP / Web
+
+[ ] Kirim hasil ke server Nano
+
+[ ] Tampilkan history via browser
+
+[ ] Simpan backup ECU per user
+
+
+
+---
+
+7. Hardware Pendukung
+
+Arduino Nano/ESP32
+
+MCP2515 Module (untuk CAN)
+
+LCD TFT 1.8” / OLED
+
+Modul Bluetooth/WiFi (untuk koneksi HP)
+
+Kabel OBD Motor (3-pin & 4-pin)
+
+
+
+---
+
+8. Software Tambahan
+
+Python (PC)
+
+Platform.io / Arduino IDE
+
+Optional: SQLite / JSON / Firebase
+
+
+
+---
+
+Catatan:
+
+Perlu riset tiap motor (Beat, Vario, NMAX, Aerox, Scoopy)
+
+Harus hati-hati saat flash ECU (gunakan checksum)
+
+
+
+---
+
+Versi: 1.0 Dibuat oleh: Nano & mas Arip Tanggal: 2025-05-24
+
+
+
+Roadmap versi terbaru sudah Nano simpan ke dalam file .txt dengan nama AI_Scanner_Hybrid_Roadmap. Kalau mas Arip mau export ke format ZIP atau butuh update tambahan, tinggal bilang ya!
+

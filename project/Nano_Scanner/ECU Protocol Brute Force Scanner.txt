@@ -1,0 +1,110 @@
+Roadmap: ECU Protocol Brute Force Scanner
+
+1. Tujuan Proyek
+
+Mendeteksi protokol OBD2 yang digunakan oleh ECU motor/mobil secara otomatis.
+
+Menggunakan metode brute force terhadap semua protokol OBD2 standar.
+
+Menyimpan hasil deteksi protokol ke log untuk penggunaan selanjutnya.
+
+
+
+2. Hardware Minimal
+
+ELM327 (USB / Bluetooth / WiFi)
+
+Microcontroller (opsional): ESP32, Arduino + HC-05 (untuk Bluetooth)
+
+Laptop / PC / Android (dengan software pemindai atau Python script)
+
+
+
+3. Software yang Digunakan
+
+Python (pySerial, socket, ELM327 command set)
+
+Terminal monitor (jika pakai microcontroller)
+
+Alternatif: App Android OBD Terminal atau custom app
+
+
+
+4. Langkah-langkah Deteksi Protokol
+
+Inisialisasi koneksi ke ELM327
+
+Reset ELM327: ATZ
+
+Nonaktifkan echo dan header: ATE0, ATH0
+
+Coba protokol satu per satu menggunakan: AT SP [1-9,A-C]
+
+Kirim perintah test: 0100 atau 0902
+
+Evaluasi respon ECU:
+
+Jika NO DATA → lanjut ke protokol berikutnya
+
+Jika dapat respon valid → simpan protokol
+
+
+
+
+5. Protokol OBD2 yang Dicoba (AT SP)
+
+0: Automatic
+
+1: SAE J1850 PWM
+
+2: SAE J1850 VPW
+
+3: ISO 9141-2
+
+4: ISO 14230-4 (KWP)
+
+5: ISO 14230-4 (KWP Fast)
+
+6: ISO 15765-4 CAN (11bit, 500kbps)
+
+7: ISO 15765-4 CAN (29bit, 500kbps)
+
+8-9, A-C: Protokol variasi CAN lain
+
+
+
+6. Output yang Dihasilkan
+
+Nama protokol yang cocok
+
+Respon valid dari ECU
+
+Waktu deteksi
+
+Semua disimpan ke scan_log.txt
+
+
+
+7. Rencana Pengembangan Lanjutan
+
+Buat GUI sederhana
+
+Integrasi dengan AI diagnosis
+
+Auto remap berdasarkan protokol terbaca
+
+Support non-OBD2 dengan custom sniffing
+
+
+
+8. Catatan
+
+Tidak semua motor support OBD2, terutama yang lama
+
+Pastikan ELM327 versi asli (banyak clone gagal deteksi protokol CAN)
+
+Beberapa ECU butuh ignition ON atau bahkan mesin nyala untuk memberi respon
+
+
+
+

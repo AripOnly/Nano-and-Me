@@ -1,0 +1,61 @@
+
+AI Nano Scanner Lite - Roadmap (Versi Hemat tapi Bermartabat)
+==============================================================
+
+1. Tujuan Proyek:
+   - Membuat alat diagnosa motor/mobil yang ringan, murah, namun akurat.
+   - Bisa digunakan untuk membaca data ECU dan memberikan analisis dasar.
+   - Bisa dikembangkan jadi versi PRO: flash firmware, modifikasi parameter, dll.
+
+2. Tahapan Pengembangan:
+
+A. Tahap 1: Riset & Perencanaan
+   - Kumpulkan data pinout OBD2 / ECU motor injeksi (Yamaha, Honda)
+   - Riset library Arduino untuk OBD2 dan LCD TFT
+   - Buat flowchart tampilan UI dan alur diagnosis
+
+B. Tahap 2: Pembuatan Prototipe Dasar
+   - Pasang Arduino Mega + LCD TFT 3.5"
+   - Integrasi modul OBD2 (ELM327) via UART
+   - Buat sistem menu UI dasar di LCD
+   - Tes pembacaan data RPM, suhu, throttle, dsb
+
+C. Tahap 3: Diagnosis Cerdas Dasar
+   - Tambahkan rules/kondisi untuk analisis sederhana
+   - Contoh: jika suhu > 105°C -> tampilkan “Cek kipas atau radiator”
+   - Simpan hasil diagnosa ke SD card (opsional)
+
+D. Tahap 4: Optimasi & Finishing
+   - Tambah sistem filtering data (moving average / Kalman)
+   - Buat casing prototipe rapi
+   - Tambahkan tombol fisik jika layar kurang responsif
+
+E. Tahap 5: Uji Lapangan & Feedback
+   - Uji ke motor/mobil nyata, cek akurasi & kestabilan
+   - Catat kekurangan & saran dari teknisi/bengkel
+
+3. Hardware Rekomendasi:
+   - Arduino Mega 2560
+   - LCD TFT 3.5” SPI
+   - ELM327 Bluetooth atau USB
+   - Tombol navigasi / touchscreen
+   - Casing akrilik / 3D print
+
+4. Software Pendukung:
+   - Library OBD2UART / ELMduino
+   - Adafruit_GFX + MCUFRIEND_kbv
+   - Sistem menu UI custom
+   - Filtering data sensor
+
+5. Rencana Pengembangan Lanjutan (PRO):
+   - Tambah fitur remap ECU
+   - Flash firmware standar
+   - Integrasi ke software desktop berbasis Python
+
+6. Estimasi Biaya Awal:
+   - ± Rp 350.000 untuk versi Lite
+   - Versi PRO > Rp 2.000.000 tergantung fitur dan alat
+
+==============================================================
+Dibuat oleh: Nano & mas Arip
+Tanggal: 2025-05-24

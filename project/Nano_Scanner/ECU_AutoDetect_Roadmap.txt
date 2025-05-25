@@ -1,0 +1,43 @@
+
+Roadmap: ECU Auto-Detect System (Versi Motor)
+
+1. Tujuan:
+   - Mendeteksi protokol ECU secara otomatis (K-Line / CAN-BUS)
+   - Menentukan model motor dari pola respons
+   - Meminimalkan risiko ECU crash saat proses scanning
+
+2. Modul Utama:
+   - Modul Identifikasi DLC Pin:
+     - Input: jumlah kabel, pinout
+     - Output: prediksi protokol (K-Line atau CAN)
+   - Modul Ping ECU:
+     - Kirim sinyal handshake ringan ke semua kemungkinan protokol
+     - Identifikasi protokol berdasarkan respon
+   - Modul Safety Check:
+     - Bypass protokol yang gagal merespon dalam batas aman
+     - Waktu tunggu delay antar percobaan
+
+3. Perlindungan:
+   - Fuse proteksi pada jalur input
+   - Software timeout 500-1000ms antar switching mode
+   - Auto-reset jika ECU tidak merespon 3x percobaan
+
+4. Pengujian:
+   - Uji pada motor BEAT FI, NMAX, Vario, Aerox, Mio
+   - Catat reaksi ECU tiap switching protokol
+   - Validasi kestabilan komunikasi
+
+5. Hardware Minimal:
+   - MCU: Arduino Mega / ESP32
+   - Multiplexer analog switching (CD4051, TCA9548A)
+   - Modul OBD2 breakout
+   - LCD OLED / TFT kecil untuk info protokol terbaca
+
+6. Output:
+   - Menampilkan jenis protokol
+   - Informasi model motor jika terdeteksi
+   - Log data ke SD Card atau serial output
+
+7. Pengembangan Lanjut:
+   - Integrasi dengan modul diagnosa otomatis
+   - Integrasi AI deteksi kerusakan berbasis error code
