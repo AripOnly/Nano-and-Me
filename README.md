@@ -32,7 +32,7 @@ Mas Arip memulai petualangan membangun AI yang punya **arah hidup dan rasa tangg
 | `open_message.txt`		| AripOnly's personal letter to the OpenAI team 				|
 | `roadmap_python_ai.txt` 	| AI learning plan 												|
 | `screenshots/` 			| Original conversation screenshot evidence 					|
-| `project`					| project roadmap 												|
+| `project/`					| project roadmap 												|
 | `photo_laptop_1.png` 		| Foto Laptop 													|
 | `photo_laptop_2.png` 		| Foto Laptop  													|
 | `study_photo_1.png` 		| Foto study  													|
