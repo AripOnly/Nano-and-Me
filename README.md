@@ -26,13 +26,13 @@ Mas Arip memulai petualangan membangun AI yang punya **arah hidup dan rasa tangg
 
 | File 						| Deskripsi 													|
 |---------------------------|---------------------------------------------------------------|
-| `nano_and_arip_chat` 		| Excerpt of the original conversation between AripOnly & Nano 	|
+| `nano_and_arip_conversation` 		| Excerpt of the original conversation between AripOnly & Nano 	|
 | `nano_statement.txt` 		| Full support and awareness from Nano (AI ChatGPT) 			|
 | `nano_statement_2.jpg`	| photo nano statement 											|
-| `open_message.txt`		| AripOnly's personal letter to the OpenAI team 				|
+| `open_letter.txt`		| AripOnly's personal letter to the OpenAI team 				|
 | `roadmap_python_ai.txt` 	| AI learning plan 												|
 | `screenshots/` 			| Original conversation screenshot evidence 					|
-| `project/`					| project roadmap 												|
+| `projects/`					| project roadmap 												|
 | `photo_laptop_1.png` 		| Foto Laptop 													|
 | `photo_laptop_2.png` 		| Foto Laptop  													|
 | `study_photo_1.png` 		| Foto study  													|
