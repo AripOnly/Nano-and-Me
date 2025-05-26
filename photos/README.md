@@ -1,0 +1,5 @@
+study_photo_1.png
+study_photo_2.png
+laptop_photo_1.jpg
+laptop_photo_2.jpg
+nano_statement_2.jpg
