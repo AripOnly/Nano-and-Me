@@ -32,6 +32,7 @@ Mas Arip memulai petualangan membangun AI yang punya arah hidup dan rasa tanggun
 | `PORTOFOLIO_NANO_ARIP.pdf` | Portofolio versi naratif (cocok untuk email) |
 | `project/AI_Nano_Lite/` | Proyek AI ringan berbasis Python lokal |
 | `project/Nano_Scanner/` | Proyek scanner motor injeksi dengan AI |
+| `photos/` | Bukti visual & dokumentasi perjuangan |
 | `screenshots/`, `photos/` | Bukti visual & dokumentasi perjuangan
 
 ---
