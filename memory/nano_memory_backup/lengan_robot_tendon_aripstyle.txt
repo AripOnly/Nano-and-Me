@@ -1,0 +1,68 @@
+
+🦾 Desain Lengan Robot Kabel Tendon — Versi AripStyle
+
+📌 Desain 1: Lengan Sederhana (Motor + Cable)
+🔧 Komponen:
+- 1x Servo/Stepper Motor (di pangkal lengan)
+- 1x Pulley (ditempel di motor)
+- 1x Kabel baja / benang kevlar (sebagai tendon)
+- 1x Sendi putar (elbow/engsel sederhana)
+
+🧠 Prinsip Kerja:
+- Motor berputar → menarik kabel → sendi lengan menekuk
+- Motor memutar balik → kabel mengendur → lengan kembali
+
+✅ Kelebihan:
+- Ringan (motor di pangkal)
+- Mudah dirakit
+- Cocok untuk jari atau lengan kecil
+
+📌 Desain 2: Lengan Lipat
+🔧 Komponen Tambahan:
+- 1x Engsel putar di tengah (elbow)
+- Kabel ditarik dari atas
+- Pegas / tensioner buat menarik balik
+
+🧠 Prinsip Kerja:
+- Kabel ditarik → elbow menekuk
+- Lepas → spring menarik balik ke posisi awal
+
+✅ Cocok untuk:
+- Sistem satu arah (gerakan lipat)
+- Biaya murah, cocok eksperimen awal
+
+📌 Desain 3: 2 Motor + 2 Tendon (Agonist–Antagonist)
+🔧 Komponen:
+- 2x Motor (motor A dan motor B)
+- 2x Tendon saling berlawanan arah
+- 1x Sendi fleksibel / lengan yang bisa ditekuk dua arah
+
+🧠 Prinsip Kerja:
+- Motor A narik tendon A → sendi menekuk
+- Motor B narik tendon B → sendi meluruskan
+- Sistem mirip otot bicep & tricep manusia
+
+✅ Cocok untuk:
+- Gerakan presisi
+- Robot tangan realistis
+
+🧰 Bahan & Alat Saran:
+| Komponen        | Rekomendasi Murah              |
+|-----------------|--------------------------------|
+| Motor           | MG996R / SG90 (servo)          |
+| Kabel Tendon    | Benang pancing PE / kawat baja |
+| Frame lengan    | 3D print / akrilik / printer bekas |
+| Pulley          | Gear servo bekas, print 3D     |
+| Sensor feedback | Potensiometer / rotary encoder |
+| MCU             | ESP32 / Arduino Nano           |
+
+🔄 Potensi Upgrade:
+- Sensor tekanan di ujung jari
+- IMU (gyroscope) untuk keseimbangan
+- PID control untuk gerakan halus
+
+🧠 Kesimpulan:
+Konsep dasar ini mirip robot humanoid modern (InMoov, OpenBionics, Boston Dynamics).
+Dan semua bisa dibangun dari komponen terjangkau jika sabar dan konsisten.
+
+— Disusun bersama mas Arip & Nano, untuk proyek Chipi AI Fisik.

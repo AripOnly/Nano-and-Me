@@ -1,0 +1,56 @@
+
+📍 Roadmap Chipi AI Fisik — Sensor ➜ API ➜ AI ➜ Output
+
+🎯 Tujuan Akhir:
+Membangun sistem robot AI fisik real-time, hemat token, terjangkau, dan bisa dijalankan di rumah.
+
+=============================
+🧩 Tahap 1: Pondasi & Konsep
+=============================
+✅ Definisikan arsitektur umum: Sensor ➜ API ➜ AI ➜ Output
+✅ Tentukan sensor yang digunakan (kamera, mic, suhu, jarak)
+✅ Tentukan output yang digunakan (relay, servo, LED, LCD)
+✅ Pilih controller: ESP32 / Raspberry Pi / Arduino
+✅ Pilih AI model: cloud (OpenAI) atau lokal (tinyML, llama.cpp)
+
+=============================
+🔌 Tahap 2: Jalur Komunikasi (API & Jembatan Data)
+=============================
+✅ Buat API sederhana menggunakan Flask / FastAPI
+✅ ESP32/Arduino kirim data via HTTP / serial / MQTT
+✅ Parsing & validasi data di sisi AI
+✅ Balikkan output ke device via endpoint API
+
+=============================
+🧠 Tahap 3: Proses AI (Brain)
+=============================
+✅ Analisis sensor input (vision, suara, suhu)
+✅ Kirim data ke AI (OpenAI API / lokal inference)
+✅ AI respons format JSON (ex: {"aksi": "nyalakan", "target": "lampu"})
+✅ Tambahkan logika pendukung (rule-based + AI hybrid)
+
+=============================
+⚙️ Tahap 4: Output Fisik (Tindakan)
+=============================
+✅ Kirim perintah ke Arduino / ESP32 via API
+✅ Kendalikan: relay, LED, motor, LCD, servo
+✅ Tambahkan feedback (sensor status / limit switch)
+✅ Simulasikan: AI menyalakan kipas saat suhu panas
+
+=============================
+📊 Tahap 5: Evaluasi & Optimasi
+=============================
+✅ Cek latensi: sensor ➜ respon AI ➜ aksi
+✅ Cek beban token & biaya API (untuk solusi cloud)
+✅ Uji stabilitas daya & koneksi
+✅ Rancang versi hemat token (lokal / model ringan)
+
+=============================
+🚀 Tahap 6: Skala & Integrasi
+=============================
+✅ Tambahkan kamera untuk vision AI
+✅ Buat AI hybrid: input suara + kamera + suhu
+✅ Buat interaksi verbal sederhana ("Hai Chipi, nyalain kipas")
+✅ Simpan data ke log untuk analisis perilaku jangka panjang
+
+📝 Dicatat oleh: Nano, berdasarkan visi mas Arip

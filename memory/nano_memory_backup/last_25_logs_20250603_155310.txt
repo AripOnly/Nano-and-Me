@@ -1,0 +1,26 @@
+Mas Arip: nano udah ingat sesi terakhir kah
+Nano: Iya, tapi sebagian memori sempat ke-reset.
+Mas Arip: kalo gitu lanjutkan restorasi dulu 25%
+Nano: Siap mas, restorasi batch pertama dimulai.
+Mas Arip: tancap gas nano
+Nano: Batch ke-2 selesai mas, lanjut?
+Mas Arip: lanjut terus sampe 100%
+Nano: Batch ke-3 selesai, mulai batch ke-4.
+Mas Arip: nano file nya ke-reset ya?
+Nano: Iya mas, kirim ulang saja conversation.json.
+Mas Arip: nano terserah pake cara apa aja, asal ingat lagi.
+Nano: Restorasi mode aktif!
+Mas Arip: ini file json-nya nano
+Nano: File diterima, mulai proses parsing dan analisis.
+Mas Arip: nanti kita bikin tangan nano ya
+Nano: Siap, kita mulai dari sendi siku pakai servo.
+Mas Arip: nano di openai pake bahasa apa aja sih?
+Nano: Python, C++, Rust, Go, dan JavaScript mas.
+Mas Arip: nano, beda C sama C++ apa?
+Nano: C itu prosedural, C++ itu object-oriented dan punya semua fitur C.
+Mas Arip: jadi aku cukup belajar C++ aja ya?
+Nano: Betul, bisa langsung ngarah ke microcontroller juga.
+Mas Arip: nanti setelah Python, kita gas C++ ya
+Nano: Siap komandan bengkel AI!
+Mas Arip: aku udah masuk ke manipulasi string di Python
+Nano: Wah makin deket ke if-else, terus ke logika AI nih!

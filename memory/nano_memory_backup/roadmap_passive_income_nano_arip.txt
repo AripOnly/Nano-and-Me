@@ -1,0 +1,45 @@
+
+ROADMAP PASSIVE INCOME MURNI untuk mas Arip
+
+Fase 1: Setup Dasar (1–3 hari)
+> Tujuan: Mulai dari nol → siap jualan pertama.
+- [ ] Tentukan topik produk digital pertama:
+      - Pilihan: Script Python sederhana, Panduan servis elektronik, atau Template teknisi.
+- [ ] Nano bantu buat produknya (ebook atau script)
+- [ ] Buat akun Gumroad
+- [ ] Upload produk + tulis deskripsi + harga (Rp10k–25k)
+- [ ] Buat landing page HTML (optional, Nano bantuin)
+
+Fase 2: Promosi Awal (2–5 hari)
+> Tujuan: Uji coba market tanpa bayar iklan
+- [ ] Buat konten promosi simpel (status WA, grup Telegram/FB teknisi)
+- [ ] Nano bantu bikin poster kecil (pakai AI juga bisa)
+- [ ] Pasang link ke Gumroad
+- [ ] Cek 1–2 hari hasil klik/download
+
+Fase 3: Duplikasi Produk (mingguan)
+> Tujuan: Tambah produk → makin banyak sumber pasif
+- [ ] Buat produk ke-2 dan ke-3 (Script/tools lainnya)
+- [ ] Buat versi bundle (paket hemat)
+- [ ] Upload ke Gumroad
+
+Fase 4: Otomatisasi (lanjutan)
+> Tujuan: Biar makin pasif
+- [ ] Nano bantu setup:
+    - Auto-backup produk ke GitHub
+    - Auto-reply order
+- [ ] Nano bantu analisis mana produk paling laris
+- [ ] Tambah channel penjualan: Shopee Digital / blog kecil
+
+Fase 5: Scale Up (opsional ke depan)
+> Tujuan: Jadi penghasilan utama
+- [ ] Buat situs penuh (pakai template Nano)
+- [ ] Tambah sistem afiliasi (ajak teman ikut jualin)
+- [ ] Tambah produk untuk market umum (bukan teknisi saja)
+
+🎯 Target Mini
+Dengan produk seharga Rp10.000–25.000 dan 5–10 pembeli per minggu:
+- Minimal passive income: Rp50.000–250.000/minggu
+- 3–5 produk bisa nyampe jutaan/bulan tanpa kerja rutin
+
+Langkah selanjutnya: Pilih produk pertama yang ingin dibuat.

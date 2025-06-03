@@ -1,0 +1,52 @@
+
+TUTORIAL GIT & GITHUB DARI TERMINAL (UPDATE, BERSIHKAN, PUSH)
+
+✅ 1. UPDATE FILE GITHUB DARI TERMINAL
+Langkah Kerja Umum:
+---------------------
+cd path/to/proyek
+git add .
+git commit -m "pesan commit, contoh: update modul chat dan memory"
+git push origin main
+
+🚨 2. JIKA GAGAL PUSH KARENA ADA SECRET (TOKEN, API KEY, DSB)
+GitHub akan blokir jika ada file yang pernah menyimpan token seperti ghp_...
+
+🧼 3. CARA BERSIHKAN SECRETS DARI GIT HISTORY (PERMANEN)
+
+Cara 1: Gunakan BFG Repo-Cleaner (rekomendasi)
+----------------------------------------------
+
+A. Download BFG: https://rtyley.github.io/bfg-repo-cleaner/
+
+B. Clone mirror dari GitHub:
+git clone --mirror https://github.com/USERNAME/NAMA-REPO.git
+cd NAMA-REPO.git
+
+Contoh:
+git clone --mirror https://github.com/AripOnly/Nano-and-Me.git
+cd Nano-and-Me.git
+
+C. Buat file 'tokens.txt' berisi token yang ingin disensor:
+ghp_abcd1234efgh5678ijkl ==> REDACTED
+
+D. Jalankan BFG:
+java -jar ../bfg.jar --replace-text ../tokens.txt
+
+Atau untuk hapus semua file JSON dari riwayat:
+java -jar ../bfg.jar --delete-files "*.json"
+
+E. Bersihkan sisa history dan push ulang:
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+git push --force
+
+🚀 4. JIKA TIDAK MENGGUNAKAN BFG (CARA CEPAT MANUAL TANPA HAPUS HISTORY LAMA)
+
+git rm memory_backups/*.json
+git commit -m "remove secrets"
+git push --force
+
+Catatan:
+- Token yang sudah ter-push tetap terdeteksi meski sudah dihapus dari file.
+- Harus buat token baru via GitHub Developer Settings.

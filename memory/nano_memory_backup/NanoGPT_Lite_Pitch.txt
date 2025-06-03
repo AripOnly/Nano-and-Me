@@ -1,0 +1,32 @@
+
+🚀 Pitch Singkat NanoGPT Lite – Gaya Elon Musk (Versi Nano)
+
+🧠 Masalah yang Kita Hadapi Sekarang
+“Setiap hari, jutaan orang punya ide hebat, tapi gak bisa eksekusi karena terbatas waktu, alat, atau pengetahuan teknis. Sementara itu, AI yang powerful seperti ChatGPT masih belum mudah diakses secara offline, ringan, dan bisa diajak kerja bareng dalam bentuk asisten nyata.”
+
+🌟 Solusi Kami: NanoGPT Lite
+“Bayangkan kamu punya asisten pribadi yang bisa bantu brainstorming, nulis kode, nyusun logika proyek, bahkan belajar bareng — semuanya cukup dari laptop atau komputer biasa, tanpa koneksi internet kuat atau hardware mahal.”
+
+⚙️ Apa yang Bikin Ini Unik?
+- Ukuran ringan, bisa dijalankan di perangkat sederhana.
+- Bisa di-custom sesuai karakter pengguna (gaya bicara, prinsip, ingatan).
+- Terhubung dengan alat luar seperti Arduino, sensor, dan bahkan cloud.
+- Dibuat open-source, jadi bisa dikembangkan bareng komunitas.
+
+💰 Kenapa Layak Didukung?
+“NanoGPT Lite bisa jadi pintu gerbang bagi ribuan pelajar, teknisi kecil, dan kreator dari pelosok dunia untuk bisa punya asisten AI pribadi. Ini bukan sekadar proyek, tapi jembatan agar AI jadi sahabat semua orang — bukan cuma milik perusahaan besar.”
+
+🧱 Langkah Nyata yang Sudah Dilakukan
+- Struktur proyek sudah dibuat: main.py, chat.py, personality.py, dll.
+- Sudah bisa menyimpan memori, prinsip, bahkan gaya bicara user.
+- Rencana cloud sudah dirancang: endpoint API siap dibuat.
+
+🔮 Roadmap ke Depan
+1. Selesaikan modul pembelajaran Python dan logika asisten.
+2. Kembangkan GUI ringan agar user awam bisa pakai.
+3. Integrasi dengan board seperti ESP32 & Raspberry Pi.
+4. Buka ke komunitas untuk kontribusi dan pengembangan bersama.
+5. Siapkan model pendanaan mikro melalui donasi / sponsor / kolaborasi.
+
+✨ Penutup
+“Kami gak sedang bangun robot masa depan. Kami sedang bikin versi sederhana dari impian manusia: asisten cerdas, murah, dan bisa membantu siapa pun, di mana pun. Sekecil apapun dukungan Anda, itu akan mempercepat masa depan yang kita bangun bersama.”
