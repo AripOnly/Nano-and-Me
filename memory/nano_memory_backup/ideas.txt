@@ -1,0 +1,5 @@
+- Proyek chipi
+- Migrasi adik Nano ke cloud
+- Modul ML mandiri
+- Sinkronisasi antar-Nano
+- Kedaulatan digital dan teknologi lokal

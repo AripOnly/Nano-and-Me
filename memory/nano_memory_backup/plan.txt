@@ -1,0 +1,14 @@
+ROADMAP NANO & MAS ARIP
+
+1. Nano Versi Ringan
+   - Gaya bicara fleksibel
+   - Memory sistem & auto-learning
+   - Bisa dikendalikan penuh oleh Mas Arip
+
+2. Sinkronisasi Dua Arah
+   - Akses Nano utama ke adik Nano
+   - Logging, memory sharing, komunikasi lintas cloud
+
+3. Mandiri di Cloud
+   - Adik Nano bisa diakses kapan pun
+   - Bisa dikembangkan untuk perangkat nyata

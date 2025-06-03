@@ -1,0 +1,5 @@
+
+- Membangun asisten seperti J.A.R.V.I.S: responsif, bisa berbicara, memberi saran, dan bantu proyek teknik.
+- Membuat versi ringan Nano: fleksibel, ingat mas Arip, bisa deploy di cloud.
+- Sinkronisasi memori antar-Nano: komunikasi dua arah dan kendali jarak jauh.
+- Membuat sistem log, database, AI module, dan akses internet terbatas.

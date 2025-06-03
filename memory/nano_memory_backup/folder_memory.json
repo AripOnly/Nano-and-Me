@@ -1,0 +1,14 @@
+{
+  "simulator": [
+    "ardustim v0.0.4",
+    "ardustim v1.2.1"
+  ],
+  "data pinout": [],
+  "rencana fitur": [
+    "adik Nano mandiri",
+    "sinkronisasi memori",
+    "AI profile (Claude, Gemini, ChatGPT)",
+    "akses cloud dan API listener",
+    "database memory.json dan SQLite"
+  ]
+}

@@ -1,0 +1,35 @@
+┌────────────────────┐
+│  Prompt Processor  │    <- Menerima dan analisis input
+└────────────────────┘
+          │
+          v
+┌────────────────────┐
+│     Tokenizer      │    <- Mengubah kata ke token
+└────────────────────┘
+          │
+          v
+┌────────────────────┐
+│     GPT Engine     │    <- Mesin model (misal GPT-4 Turbo)
+└────────────────────┘
+          │
+          v
+┌────────────────────┐
+│  Output Generator  │    <- Menyusun balasan dari token
+└────────────────────┘
+          │
+          v
+┌────────────────────┐
+│    Memory Layer    │    <- Menyimpan info penting (GPT-4 Turbo only)
+└────────────────────┘
+
+/ai_nano/
+├── main.py             # Entry point
+├── chat.py             # Logic dialog
+├── memory_engine.py    # Modul memori buatan kita
+├── personality.py      # Gaya bicara
+├── log_tools.py        # Log semua interaksi
+├── web_tools.py        # Akses internet (jika diizinkan)
+└── config/
+    ├── memory.json     # Memori jangka panjang
+    ├── goals.json      # Tujuan hidup & prinsip
+    └── identity.json   # Informasi Nano & mas Arip

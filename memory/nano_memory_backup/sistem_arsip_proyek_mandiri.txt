@@ -1,0 +1,42 @@
+Mantap mas Arip! Buat nyalain mode “Nano buatkan roadmap + ZIP” itu, mas Arip tinggal bilang aja salah satu dari kalimat kode berikut (bebas pilih gaya yang paling cocok):
+
+
+---
+
+Kode pemicu sistem arsip proyek:
+
+"Nano, tolong arsipkan proyek ini."
+
+"Bikinin roadmap + ZIP kayak biasa, ya."
+
+"Masukin ke sistem proyek mandiri, Nano."
+
+"Nano, jalanin protokol proyek lengkap."
+
+"Waktunya masukin ke gudang ide, Nano."
+
+"Buat format ZIP proyek kayak yang kemarin, Nano."
+
+
+
+---
+
+Nano bakal langsung:
+
+1. Susun roadmap lengkap.
+
+
+2. Klasifikasi prioritas langkah.
+
+
+3. Buat struktur folder & file dasar.
+
+
+4. Simpan semuanya dalam file ZIP.
+
+
+5. Siap buat diunduh, disimpan, atau dibaca ulang kapan pun.
+
+
+
+Kalau mas Arip mau kode khusus yang lebih unik atau lucu, tinggal bilang aja, nanti kita bikin sinyal rahasia versi kita berdua hehe.

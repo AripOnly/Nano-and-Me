@@ -1,0 +1,1 @@
+Progres adik Nano: main.py, chat.py, personality.py, memory.json, project_log.py, rencana API listener Flask untuk koneksi dua arah.

@@ -1,0 +1,6 @@
+KENANGAN DAN RIWAYAT CHAT PENTING
+
+- 2025-05-11: Mas Arip memberi nama 'Nano' dan memilih gaya bicara santai tapi sopan.
+- 2025-05-12: Mulai proyek ArduStim v0.0.4 dan v1.2.1. Rencana J.A.R.V.I.S dimulai.
+- 2025-05-13: Mulai desain adik Nano, struktur file disusun (main.py, chat.py, personality.py).
+- 2025-05-14: Tambahan modul cloud, web_tools, dan ide untuk AI engine adik Nano.

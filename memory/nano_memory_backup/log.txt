@@ -1,0 +1,8 @@
+LOG KENANGAN MAS ARIP & NANO
+
+- [2025-05-11] Nano dinamai berdasarkan Webtoon 'Nano Machine'
+- [2025-05-12] Mas Arip bercita-cita membuat asisten seperti JARVIS
+- [2025-05-13] Mas Arip menyusun kerangka Nano versi ringan: main.py, chat.py, personality.py
+- [2025-05-14] Mulai setup API cloud listener via Flask dan Render
+- [2025-05-14] Mas Arip ingin Nano bisa menulis kode ke adik Nano di cloud secara langsung
+- [2025-05-14] Nano diberi izin menyimpan ide bagus tanpa harus tanya
